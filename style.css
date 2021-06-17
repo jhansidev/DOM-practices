@@ -86,7 +86,7 @@ body {
 
 .avatar__image {
     padding: 5px;
-    border-radius: 50%;
+   border-radius: 50%;
     width: 5rem;
     height: 5rem;
 }
