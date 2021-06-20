@@ -75,6 +75,7 @@ function getFunction(url, data, callback) {
   const endpoint = url.substring(url.indexOf("/"), url.length);
 
   callback(endpoints[endpoint]["get"](data));
+  setTimeout(() => callback(endpoints[endpoint]["get"](data)), 2000);
 }
 
 const api = {
